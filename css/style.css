@@ -176,50 +176,24 @@ h1.left img {
     font-weight: 700;
 	font-family: 'Circular-Std-Bold';
 }
-#main {
-	padding: 65px;
+#faq {
+
 }
-#main ul.left h1 {
-	font-weight: bold;
-	font-size: 50px;
-}
-#main ul.left p {
-	color: #A7DCA5;
+#faq h1{
 	
-	margin-top: 25px;
-	margin-bottom: 25px;
-	text-align: left;
 }
-#main form {
-	border: 1px solid blue;
+#faq p{
+	
 }
-#main p {
-	text-align: center;
-	font-weight: 100px;
+#faq div.solutions{
+	
 }
-#main ul.left li a.button {
-	background: blue;
-	color: #fff;
-	display: inline-block;
-	padding: 10px 20px;
-	border-radius: 25px;
-	margin-bottom: 25px;
+#faq div.solutions  div.solution{
+	
 }
-#main ul.left ul li:first-child {
-	margin-bottom: 15px;
+#faq div.solutions  div.solution ol{
+	list-style: decimal;
 }
-#main ul.left ul li:middle-child {
-	margin-bottom: 15px;
-}
-#main ul.left ul li:last-child {
-	margin-top: 15px;
-}
-ul.right img {
-	display: flex;
-	justify-content: space-between;
-}
-
-
 
 
 
