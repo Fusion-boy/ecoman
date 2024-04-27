@@ -142,7 +142,40 @@ h1.left img {
 	width: 90px;
 }
 
+#spotlight{
+	position: relative;
+}
+#spotlight div{
+	
+}
+#spotlight div img{
+	width: 100%;
+	height: calc(100vh - 144px);	
+}
+#spotlight .owl-nav button:nth-child(1){
+	position: absolute;
+	top: 250px;
+	left: 20px;
+}
+#spotlight .owl-nav button span{
+	display: inline-block;
+	font-size: 116px;
+}
+#spotlight .owl-nav button:nth-child(2){
+	position: absolute;
+	top: 250px;
+	right: 20px;
+}
+#spotlight h1{
 
+	position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: 34%;
+    font-size: 42px;
+    font-weight: 700;
+	font-family: 'Circular-Std-Bold';
+}
 #main {
 	padding: 65px;
 }
