@@ -289,5 +289,12 @@ label{
 	margin-bottom: 24px;
 	color: #fff;
 }
-
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e2f1c8;
+	width: 100%;
+	color: ##90cf8e;
+}
 
