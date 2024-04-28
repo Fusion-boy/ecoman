@@ -255,16 +255,16 @@ h1.left img {
 }
 #qna form{
 
- background-color: #40873d;
- width: 62%;
- margin: 0 auto;
- border-radius: 32px;
- padding: 44px 0;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center; 
- box-shadow: -14px 20px 20px 8px #040404;
+	background-color: #40873d;
+	width: 62%;
+	margin: 0 auto;
+	border-radius: 32px;
+	padding: 44px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	box-shadow: -14px 20px 20px 8px #040404;
 }
 #qna form input{
 	margin: 28px 0px 0;
@@ -341,8 +341,8 @@ label{
     font-weight: 700;
 }
 #pricing section.top ul li span{
-font-size: 19px;
-font-weight: 600;
+	font-size: 19px;
+	font-weight: 600;
 }
 #pricing section.top ul li a.button{
 	background: #90cf8e;
@@ -360,5 +360,11 @@ footer{
 	color: rgb(4, 96, 4);
 	padding: 40px;
 	font-size: 19px;
+	
 }
-
+footer a{
+	font-weight: 800;
+}
+button:hover, a:hover, input[type="submit"]:hover{
+	text-decoration: underline;
+}
