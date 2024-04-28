@@ -357,10 +357,7 @@ footer{
 	align-items: center;
 	background-color: #e2f1c8;
 	width: 100%;
-	color: rgb(4, 96, 4);
 	padding: 40px;
-	font-size: 19px;
-	
 }
 footer a{
 	font-weight: 800;
@@ -368,3 +365,4 @@ footer a{
 button:hover, a:hover, input[type="submit"]:hover{
 	text-decoration: underline;
 }
+
