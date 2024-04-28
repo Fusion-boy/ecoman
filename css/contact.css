@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Center the content */
+section {
+    text-align: center;
+    padding: 40px;
+    background-color: #e4fde1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1 {
+    font-size: 68px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+a, address{
+    font-family: sans-serif;
+    color: #837d4e;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+img{
+    width: 42PX;
+    margin-bottom: 12px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -11px 20px 20px 4px green;
+    justify-content: center;
+    border-radius: 18px;
+}
+a.link{
+    position: absolute;top:10px;
+    left: 25px;
+}

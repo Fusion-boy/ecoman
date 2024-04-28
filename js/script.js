@@ -6,7 +6,17 @@ $(window).ready(function () {
         dots: false,
     })
 
+    $("button.donate").click(function(){
+        $("#pricing section.top ul").css("display", 'flex')
+    })
 
+    $("#pricing section.top ul li a.button").click(function(){
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+        })
+    })
 
     // qna sub,it
     $("#qna form").on("submit", function (e) {

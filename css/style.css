@@ -10,6 +10,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 ol, ul {
 	list-style: none;
@@ -262,7 +263,8 @@ h1.left img {
  display: flex;
  flex-direction: column;
  justify-content: center;
- align-items: center;
+ align-items: center; 
+ box-shadow: -14px 20px 20px 8px #040404;
 }
 #qna form input{
 	margin: 28px 0px 0;
@@ -289,5 +291,74 @@ label{
 	margin-bottom: 24px;
 	color: #fff;
 }
+#pricing{
+	background-color:#dbeee0;
+}
+#pricing section.top{
+	padding: 60px 0;
+	text-align: center;
+}
+#pricing section.top h3{
+	font-size: 42px;
+	font-weight: 800;
 
+	margin-bottom: 24px;
+}
+#pricing section.top button{
+	padding: 18px 31px;
+    background-color: #90cf8e;
+    border-radius: 35px;
+    font-size: 19px;
+    font-weight: 700;
+	margin-bottom: 24px;
+}
+#pricing section.top ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: none;
+	width: 100%;
+}
+#pricing section.top ul li{
+	list-style: none;
+	width: 30%;
+	background-color: #eefee7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	padding: 40px;
+	height: 36vh;
+	border-radius: 16px;
+}
+#pricing section.top ul li h5{
+	font-size: 22px;
+    font-weight: 800;
+}
+#pricing section.top ul li h4{
+	font-size: 19px;
+    font-weight: 700;
+}
+#pricing section.top ul li span{
+font-size: 19px;
+font-weight: 600;
+}
+#pricing section.top ul li a.button{
+	background: #90cf8e;
+    padding: 15px 25px;
+    border-radius: 38px;
+    font-size: 18px;
+    font-weight: 700;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e2f1c8;
+	width: 100%;
+	color: rgb(4, 96, 4);
+	padding: 40px;
+	font-size: 19px;
+}
 
