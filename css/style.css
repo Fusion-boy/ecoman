@@ -152,6 +152,9 @@ h1.left img {
 	width: 100%;
 	height: calc(100vh - 144px);	
 }
+#spotlight .owl-nav{
+	margin: 0;
+}
 #spotlight .owl-nav button:nth-child(1){
 	position: absolute;
 	top: 250px;
@@ -177,30 +180,114 @@ h1.left img {
 	font-family: 'Circular-Std-Bold';
 }
 #faq {
-
+	background-color: #e4fde1;
+	padding: 80px 0;
 }
 #faq h1{
-	
+	font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-align: center;
 }
 #faq p{
-	
+	font-size: 22px;
+    color: #055a38;
+    font-weight: 700;
 }
 #faq div.solutions{
-	
+	padding: 60px 20px;
 }
 #faq div.solutions  div.solution{
-	
+	padding: 40px 40px;
+    box-shadow: -10px 54px 47px 32px #90cf8e;
+    margin: 0 0 128px 0px;
+    border: 2px solid #a3ffa352;
+    border-radius: 45px;
 }
 #faq div.solutions  div.solution ol{
 	list-style: decimal;
+	margin-left: 28px;
+	margin-left: 75px;
+}
+#faq div.solutions  div.solution ol li{
+	font-size: 18px;
+	font-weight: 800;
+	margin-bottom: 12px;
+}
+#faq div.solutions  div.solution h2{
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 24px;
+}
+#faq div.solutions  div.solution p{
+	text-indent: 50px;
+    font-size: 20px;
+    font-weight: 700;
+	margin-bottom: 24px;
+}
+#qna .wrapper{
+	display: flex;
+	justify-content: center;align-items: center;flex-direction: column;
+}
+#qna{
+
+	background-color: #90cf8e;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90cf8e;
+    /* height: 100vh; */
+	padding: 40px 0;
 }
 
+#qna h1{
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 24px;
+}
+#qna p{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 28px;
+}
+#qna form{
 
+ background-color: #40873d;
+ width: 62%;
+ margin: 0 auto;
+ border-radius: 32px;
+ padding: 44px 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#qna form input{
+	margin: 28px 0px 0;
+    padding: 22px;
+    background: beige;
+    width: 15%;
+    border-radius: 37px;
+    font-size: 18px;
+    font-weight: 700;
+	border: 2px solid grey;
+}
+#qna form textarea{
+	width: 80%;
+	border-radius: 8px;
+	background-color: #d1e8d1;
+	padding: 0;
+	font-size: 19px;
+	font-weight: 600;
+}
 
-
-
-
-
-
+label{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 24px;
+	color: #fff;
+}
 
 
