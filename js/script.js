@@ -4,17 +4,25 @@ $(window).ready(function () {
         items: 1,
         nav:true,
         dots: false,
+        autoplay:true,
+        autoplayTimeout:3000,
+        
+    })
+
+    $("#faq div.solutions  div.solution h2").on("click", function(){
+        $(this).siblings().toggle();
+        
     })
 
     $("button.donate").click(function(){
-        $("#pricing section.top ul").css("display", 'flex')
+        $("#pricing section.top ul").css('display', "flex");
     })
 
     $("#pricing section.top ul li a.button").click(function(){
         Swal.fire({
             icon: "error",
             title: "Oops...",
-            text: "Something went wrong!",
+            text: "Donation Is Under Maintenance",
         })
     })
 
