@@ -357,6 +357,8 @@ label{
     border-radius: 38px;
     font-size: 18px;
     font-weight: 700;
+	color:#2d2d2d;
+	
 }
 footer{
 	display: flex !important;
